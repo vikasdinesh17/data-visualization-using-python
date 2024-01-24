@@ -1,0 +1,9 @@
+from difflib import SequenceMatcher
+string1 = "Python Exercises"
+string2 = "Python Exercise"
+similarity = SequenceMatcher(None, string1, string2).ratio()
+print("Original string:")
+print(string1)
+print(string2)
+print("Similarity between two said strings:")
+print(similarity)
